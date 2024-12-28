@@ -20,8 +20,8 @@ Before running the notebook, ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/Hariharan-Durairaj/Classifying-cifar-10-dataset-using-CNN.git
+   cd Classifying-cifar-10-dataset-using-CNN
    ```
 
 2. Install the required Python packages:
@@ -43,13 +43,13 @@ Before running the notebook, ensure you have the following installed:
 The `requirements.txt` file contains all the dependencies needed for this project:
 
 ```
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-keras
-tensorflow
+numpy==1.25.2
+pandas==1.5.3
+matplotlib==3.4.3
+seaborn==0.13.2
+scikit-learn==1.3.0
+pytorch==2.0.1
+torchvision==0.15.2
 jupyter
 ```
 
